@@ -33,13 +33,7 @@ int _printf_s(va_list flist)
 	ptr = va_arg(flist, char *);
 	if (ptr == NULL)
 	{
-		while (*_null)
-		{
-			_putchar(*_null);
-			_null++;
-			len++;
-		}
-		return (len);
+		ptr = _null;
 	}
 	while (*ptr)
 	{
