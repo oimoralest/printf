@@ -9,7 +9,7 @@ typedef struct id_function
 {
 	char id;
 	int (*f)();
-}function_t;
+} function_t;
 int _printf(const char *format, ...);
 int _putchar(char c);
 int _printf_c(va_list flist);
