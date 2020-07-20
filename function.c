@@ -27,13 +27,19 @@ int _printf_c(va_list flist)
  */
 int _printf_s(va_list flist)
 {
-	char *ptr = NULL;
+	char *ptr = NULL, *_null = "(null)";
 	unsigned int len = 0;
 
 	ptr = va_arg(flist, char *);
 	if (ptr == NULL)
 	{
-		exit(98);
+		while (*_null)
+		{
+			_putchar(*_null);
+			_null++;
+			len++;
+		}
+		return (len);
 	}
 	while (*ptr)
 	{
