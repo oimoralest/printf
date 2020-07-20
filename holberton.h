@@ -14,5 +14,5 @@ int _printf(const char *format, ...);
 int _putchar(char c);
 int _printf_c(va_list flist);
 int _printf_s(va_list flist);
-int _printf_number(va_list flist);
+int print_number(va_list flist);
 #endif
