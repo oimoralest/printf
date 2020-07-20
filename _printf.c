@@ -42,7 +42,7 @@ int _printf(const char *format, ...)
 			}
 		}
 		if (identifier_f[k].id == '\0')
-			return (-1);
+			_putchar(format[i++]);
 	}
 	va_end(flist);
 	return (len_printf);
