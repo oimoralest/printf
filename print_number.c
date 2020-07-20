@@ -1,18 +1,14 @@
 #include "holberton.h"
-#define INT_MIN -2147483648
 /**
- *print_number - prints a integer
- *@n: integer to print
+ *print_number - prints an integer
+ *@flist: integer to print
  *
- *Return: void
+ *Return: no zero
  */
-void print_number(int n)
+int print_number(va_list flist)
 {
-	int power, c, min;
+	int power = 10, c = 10, min = 0, len = 0, n = va_arg(flist, int);
 
-	power = 10;
-	c = 1;
-	min = 0;
 	if (n < 0)
 	{
 		if (n == INT_MIN)
@@ -21,6 +17,7 @@ void print_number(int n)
 			n += 1;
 		}
 		_putchar('-');
+		len++;
 		n *= -1;
 	}
 	if (n >= 0 && n <= 9)
@@ -39,6 +36,7 @@ void print_number(int n)
 				_putchar((n / power) + '0');
 				n %= power;
 				power /= 10;
+				len++;
 				c--;
 			}
 		}
@@ -46,4 +44,6 @@ void print_number(int n)
 	if (min)
 		n += 1;
 	_putchar(n + '0');
+
+	return (++len);
 }
