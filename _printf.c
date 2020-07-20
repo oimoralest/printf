@@ -24,11 +24,7 @@ int _printf(const char *format, ...)
 		}
 		flag = i + 1;
 		if (format[flag] == '%' && format[i])
-		{
-			_putchar('%');
-			len_printf++;
-			i += 2;
-		}
+			_putchar('%'), len_printf++, i += 2;
 		else
 		{
 			for (k = 0; identifier_f[k].id && format[i]; k++)
@@ -42,7 +38,7 @@ int _printf(const char *format, ...)
 			}
 		}
 		if (identifier_f[k].id == '\0')
-			_putchar(format[i++]);
+			_putchar(format[i++]), len_printf++;
 	}
 	va_end(flist);
 	return (len_printf);
