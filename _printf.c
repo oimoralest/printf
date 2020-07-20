@@ -12,8 +12,8 @@ int _printf(const char *format, ...)
 	unsigned int len_printf = 0, i = 0, k = 0, flag = 0;
 	char j = '\0';
 
-	if (!format[i])
-		return (0);
+	if (format == NULL)
+		return (-1);
 	va_start(flist, format);
 	while (format[i])
 	{
@@ -42,7 +42,7 @@ int _printf(const char *format, ...)
 			}
 		}
 		if (identifier_f[k].id == '\0')
-			exit(98);
+			return (-1);
 	}
 	va_end(flist);
 	return (len_printf);
