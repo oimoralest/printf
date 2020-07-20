@@ -45,5 +45,5 @@ int _printf(const char *format, ...)
 			exit(98);
 	}
 	va_end(flist);
-	return (format[--i] == '\n' ? --len_printf : len_printf);
+	return (len_printf);
 }
