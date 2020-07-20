@@ -7,7 +7,7 @@
  */
 int print_number(va_list flist)
 {
-	int power = 10, c = 10, min = 0, len = 0, n = va_arg(flist, int);
+	int power = 10, c = 1, min = 0, len = 0, n = va_arg(flist, int);
 
 	if (n < 0)
 	{
