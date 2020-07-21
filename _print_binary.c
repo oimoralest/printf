@@ -7,11 +7,11 @@
 int _print_b(va_list flist)
 {
 	int base = 2, c = 1, len = 0, n = va_arg(flist, int);
-	char w = 0;
+	char w = '0';
 
 	if (n <= 0)
 	{
-		putchar('0');
+		write(1, &w, 1);
 	}
 	else
 	{
