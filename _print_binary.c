@@ -6,14 +6,14 @@
  */
 int _print_b(va_list flist)
 {
-	unsigned int base = 2, n = va_arg(flist, int);
+	long int base = 2, n = va_arg(flist, int);
 	int c = 1, len = 0;
 	char w = '0';
 
 	if (n == 0)
-	{
-		write(1, &w, 1);
-	}
+		write(1, &w, 1), len++;
+	else if (n < 0)
+		return (-1);
 	else
 	{
 		while (c > 0)
