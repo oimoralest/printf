@@ -13,7 +13,7 @@ int _print_b(va_list flist)
 
 	if (n < 2)
 	{
-		w = n == 0 ? '0' : '1'; 
+		w = n == 0 ? '0' : '1';
 		write(1, &w, 1);
 	}
 	else
