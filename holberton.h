@@ -21,4 +21,6 @@ int _printf_c(va_list flist);
 int _printf_s(va_list flist);
 int print_number(va_list flist);
 int _print_b(va_list flist);
+int _print_o(va_list flist);
+int _print_u(va_list flist);
 #endif
