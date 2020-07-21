@@ -8,7 +8,8 @@ int _printf(const char *format, ...)
 {
 	function_t identifier_f[] = {{'c', _printf_c}, {'s', _printf_s},
 		{'i', print_number}, {'d', print_number}, {'b', _print_b},
-		{'o', _print_o}, {'u', _print_u}, {'\0', NULL}};
+		{'o', _print_o}, {'u', _print_u}, {'x', _print_x},
+		{'X', _print_X}, {'\0', NULL}};
 	va_list flist;
 	unsigned int len_printf = 0, i = 0, k = 0, flag = 0;
 	char j = '\0';
