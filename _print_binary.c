@@ -7,7 +7,7 @@
 int _print_b(va_list flist)
 {
 	unsigned int base = 2;
-	unsigned int n = va_arg(flist, unsigned int);
+	unsigned int n = va_arg(flist, int);
 	int c = 1, len = 0;
 	char w = '0';
 
