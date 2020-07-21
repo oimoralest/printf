@@ -12,8 +12,6 @@ int _print_b(va_list flist)
 
 	if (n == 0)
 		write(1, &w, 1), len++;
-	else if (n < 0)
-		return (-1);
 	else
 	{
 		while (c > 0)
