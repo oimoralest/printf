@@ -13,8 +13,7 @@ int _print_o(va_list flist)
 
 	if (n < 8)
 	{
-		w = n + '\0';
-		write(1, &w, 1);
+		w = n + '0', write(1, &w, 1);
 	}
 	else
 	{
@@ -30,7 +29,7 @@ int _print_o(va_list flist)
 				w = (n / base) + '0';
 				write(1, &w, 1);
 				n %= base;
-				base /= 2;
+				base /= 8;
 				len++;
 				c--;
 			}
