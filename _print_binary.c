@@ -12,7 +12,7 @@ int _print_b(va_list flist)
 	char w = '0';
 
 	if (n == 0)
-		write(1, &w, 1), len++;
+		write(1, &w, 1);
 	else
 	{
 		while (c > 0)
