@@ -23,4 +23,8 @@ int print_number(va_list flist);
 int _print_b(va_list flist);
 int _print_o(va_list flist);
 int _print_u(va_list flist);
+int _print_x(va_list flist);
+char exchange_x(unsigned int n);
+int _print_X(va_list flist);
+char exchange_X(unsigned int n);
 #endif
