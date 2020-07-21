@@ -6,10 +6,11 @@
  */
 int _print_b(va_list flist)
 {
-	int base = 2, c = 1, len = 0, n = va_arg(flist, int);
+	unsigned int base = 2, n = va_arg(flist, int);
+	int c = 1, len = 0;
 	char w = '0';
 
-	if (n <= 0)
+	if (n == 0)
 	{
 		write(1, &w, 1);
 	}
