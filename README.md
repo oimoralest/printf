@@ -19,7 +19,9 @@ In this project, we created our own printf function [_printf](https://linux.die.
            
 >Upon successful return, this function returns the number of characters printed (excluding the null byte used to end output to strings). If an output error is encountered, a negative value is returned.
 
->A character that specifies the type of conversion to be applied. The conversion specifiers and their meanings are d, i(integers), c (convert and unsigned char), s (string), %(is written, no argument is converted).
+>A character that specifies the type of conversion to be applied. The conversion specifiers and their meanings are d, i(integers), c (convert an unsigned char), s (string), b (convert an unsigned int to binary), u (printed an unsigned int), o (convert an unsigned int to octal notation), x, X (convert an unsigned int to hexadecimal notation in lower and uppercase respectively), and %(is written, no argument is converted).
+
+>To use the formating options, specifier should be preceded by %. e.g: _printf("This is a test %d", integer);
 ---
 ### :file_folder: Files / Directories 
 ##|File|Description
