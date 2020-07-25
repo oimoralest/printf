@@ -47,7 +47,7 @@ int _print_X(va_list flist)
 	return (++len);
 }
 /**
- *exchange_x - exchanges values for letters in hexadecimal
+ *exchange_X - exchanges values for letters in hexadecimal
  *@n: number to search its parent in letrer
  *
  *Return: char equivalento to the digit in hexadecimal
