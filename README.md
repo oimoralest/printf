@@ -13,23 +13,28 @@ In this project, we created our own printf function [_printf](https://linux.die.
 
 > Printf is a function.
 
-Formatted output conversion.
+>Formatted output conversion.
 
+>The function printf() produces output according to a format as described below. The function printf() - formatted output conversion, the printf function writes output to stdout, the standard output stream. >This function works with the <std.arg> for call a list of arguments. 
+           
+>Upon successful return, this function returns the number of characters printed (excluding the null byte used to end output to strings). If an output error is encountered, a negative value is returned.
+
+>A character that specifies the type of conversion to be applied. The conversion specifiers and their meanings are d, i(integers), c (convert and unsigned char), s (string), %(is written, no argument is converted).
 ---
 ### :file_folder: Files / Directories 
 ##|File|Description
 ---|---|---
-1|[README.md](https://github.com/oimoralest/printf/blob/master/README.md)|...
-2|[_printf.c](https://github.com/oimoralest/printf/blob/master/_printf.c)|...
-3|[Holberton.h](https://github.com/oimoralest/printf/blob/master/holberton.h)|...
-4|[functions.c ](https://github.com/oimoralest/printf/blob/master/function.c)|...
-5|[print_number.c](https://github.com/oimoralest/printf/blob/master/print_number.c)|...
-6|[_print_binary.c_](https://github.com/oimoralest/printf/blob/master/_print_binary.c)|...
-7|[_print_o.c ](https://github.com/oimoralest/printf/blob/master/_print_o.c)|...
-8|[_print_u.c](https://github.com/oimoralest/printf/blob/master/_print_u.c)|...
-9|[_print_x.c](https://github.com/oimoralest/printf/blob/master/_print_x.c)|...
-10|[_print_X.c](https://github.com/oimoralest/printf/blob/master/_print_X.c)|...
-11|[3-man_printf.c](https://github.com/oimoralest/printf/blob/master/man_3_printf)|...
+1|[README.md](https://github.com/oimoralest/printf/blob/master/README.md)|this file contains the specifiacion of the project
+2|[_printf.c](https://github.com/oimoralest/printf/blob/master/_printf.c)|This file contains the printf function to our project
+3|[Holberton.h](https://github.com/oimoralest/printf/blob/master/holberton.h)|this file contains the headers file. It includes the guards, prototipes and definition of the structure
+4|[functions.c ](https://github.com/oimoralest/printf/blob/master/function.c)|This file include the functions: _putchar, _printc, _print_s.
+5|[print_number.c](https://github.com/oimoralest/printf/blob/master/print_number.c)|This file include the functions to convert a integer number.
+6|[_print_binary.c_](https://github.com/oimoralest/printf/blob/master/_print_binary.c)|This file include the functions to convert a decimal number to a binary number.
+7|[_print_o.c ](https://github.com/oimoralest/printf/blob/master/_print_o.c)|This file include the functions to convert a decimal number to a octal number.
+8|[_print_u.c](https://github.com/oimoralest/printf/blob/master/_print_u.c)|This file include the functions to convert a decimal number to a unsigned number.
+9|[_print_x.c](https://github.com/oimoralest/printf/blob/master/_print_x.c)|This file include the functions to convert a decimal number to a hexadecimal number in lowercase.
+10|[_print_X.c](https://github.com/oimoralest/printf/blob/master/_print_X.c)|This file include the functions to convert a decimal number to a hexadecimal number in uppercase.
+11|[3-man_printf.c](https://github.com/oimoralest/printf/blob/master/man_3_printf)|This file include the man page of _printf(3) function.
 ---
 
 ---
@@ -48,10 +53,10 @@ Formatted output conversion.
 <p align="center">
     <h2 align="center">Made by, Óscar Morales</h2>
       <p align="center">
-        <a href="https://twitter.com/apla02" target="_blank">
+        <a href="https://twitter.com/oi_moralest" target="_blank">
             <img alt="twitter_page" src="https://help.twitter.com/content/dam/help-twitter/brand/logo.png" style="float: center; margin-right: 10px" height="50" width="50">
         </a>
-        <a href="https://www.linkedin.com/in/lauraandreaalvarezperez/" target="_blank">
+        <a href="https://www.linkedin.com/in/oscar-morales-7815501a4/" target="_blank">
             <img alt="linkedin_page" src="https://www.totalspecialfluids.com/sites/g/files/wompnd1206/f/menuimage/logo-linkedin.png" style="float: center; margin-right: 10px" height="50"  width="50">
         </a>
       </p>
@@ -68,6 +73,3 @@ Formatted output conversion.
 <p align="center">
 <b>Julio, 2020.<b>
 </p>
-
-
-
