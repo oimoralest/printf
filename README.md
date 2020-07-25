@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://www.holbertonschool.com/holberton-logo.png" width="360"/>
- <h1 align="center">Printf - Bash</h1>
+ <h1 align="center">Printf</h1>
  <br>
 
 
@@ -40,7 +40,7 @@ Formatted output conversion.
             <img alt="twitter_page" src="https://help.twitter.com/content/dam/help-twitter/brand/logo.png" style="float: center; margin-right: 10px" height="50" width="50">
         </a>
         <a href="https://www.linkedin.com/in/lauraandreaalvarezperez/" target="_blank">
-            <img alt="linkedin_page" src="https://github.com/gedafu/readme-template/blob/master/images/linkedin.png" style="float: center; margin-right: 10px" height="50"  width="50">
+            <img alt="linkedin_page" src="https://www.totalspecialfluids.com/sites/g/files/wompnd1206/f/menuimage/logo-linkedin.png" style="float: center; margin-right: 10px" height="50"  width="50">
         </a>
       </p>
 </p>
@@ -48,8 +48,8 @@ Formatted output conversion.
 <p align="center">
     <h2 align="center">Made by, Óscar Morales</h2>
       <p align="center">
-        <a href="https://twitter.com/oi" target="_blank">
-            <img alt="twitter_page" src="https://github.com/gedafu/readme-template/blob/master/images/twitter.png" style="float: center; margin-right: 10px" height="50" width="50">
+        <a href="https://twitter.com/apla02" target="_blank">
+            <img alt="twitter_page" src="https://help.twitter.com/content/dam/help-twitter/brand/logo.png" style="float: center; margin-right: 10px" height="50" width="50">
         </a>
         <a href="https://www.linkedin.com/in/lauraandreaalvarezperez/" target="_blank">
             <img alt="linkedin_page" src="https://www.totalspecialfluids.com/sites/g/files/wompnd1206/f/menuimage/logo-linkedin.png" style="float: center; margin-right: 10px" height="50"  width="50">
