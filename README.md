@@ -57,15 +57,3 @@ In this project, we created our own printf function [_printf](https://linux.die.
         </a>
       </p>
 </p>
-
-<p align="center">
-   <img src="https://www.holbertonschool.com/holberton-logo.png"
-     alt="Flow chart"
-     style="float: left; margin-right: 10px;">
-</p>
-<p align="center">
-<b>Holberton School - Colombia<b><br>
-</p>
-<p align="center">
-<b>Julio, 2020.<b>
-</p>
