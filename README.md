@@ -1,11 +1,5 @@
 # 0x11. C - printf
 
-<p align="center">
-  <img src="https://www.holbertonschool.com/holberton-logo.png" width="360"/>
- <h1 align="center">Printf</h1>
- <br>
-
-
 In this project, we created our own printf function [_printf](https://linux.die.net/man/3/printf).
 
 :black_nib:  Definition Printf:
